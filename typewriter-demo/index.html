@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal blog between code and life.">
+  <title>Between Code & Life — 于的手记</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./room.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="./room.js"></script>
+  <script type="module" src="./script.js"></script>
+</head>
+<body class="room-demo">
+<main>
+    <nav class="writing-nav" aria-label="博客导航"><a href="../">首页</a><a href="#entries">文章</a><a href="../about">关于</a></nav>
+    <section class="hero" aria-label="博客首页">
+      <div class="room-desk" aria-hidden="true"></div>
+      <div class="room-light" aria-hidden="true"><div class="room-lace"></div><canvas class="room-dust"></canvas></div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="hero-copy"><h1>Between Code <em>&amp;</em> Life</h1></div>
+
+      <div class="machine" aria-label="复古打字机持续送出纸张">
+        <div class="paper-feed-window" aria-hidden="true"><div class="typing-page"></div></div>
+        <img src="./typewriter.png" alt="" width="1536" height="1024">
+        <div class="mechanical-carriage" aria-hidden="true"><i></i><i></i></div>
+
+      </div>
+      <div class="hero-bottom"><span>TIME IS LIGHT</span></div>
+    </section>
+
+    <section id="entries" class="afterword writing-entries" aria-labelledby="entries-title">
+      <h2 id="entries-title">最近手记</h2>
+      <ul>
+        <li><a href="../posts/start-writing">从这里开始写作</a></li>
+        <li><a href="../posts/spring-request-notes">Spring 请求笔记</a></li>
+        <li><a href="../posts/test-first-step">测试开发的第一步</a></li>
+      </ul>
+      <a href="../posts/">全部文章 ↗</a>
+    </section>
+  </main>
+<script type="module" src="./typewriter.js"></script>
+</body>
+</html>
+
+
+
+
+
+
